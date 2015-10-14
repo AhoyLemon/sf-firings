@@ -64,5 +64,11 @@ var jobTitles = [
   "Nostalgist",
   "Thought Librarian",
   "Culture Fitologist",
-  "Sonos DJ"
+  "Sonos DJ",
+  "Data Alchemist",
+  "Production Code Reviewnicorn",
+  "L2 Support Super Saiyan",
+  "Culture Lead",
+  "Futurist-In-Residence",
+  "Chief Product Hunt Officer"
 ];
