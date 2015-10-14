@@ -53,7 +53,6 @@ var jobTitles = [
   "Displacement Bus Driver",
   "Egg Cryogenicist",
   "Metatag Resource Manager",
-  "[NO JOB TITLE ON FILE]",
   "Periscope Street Team Captain",
   "Guru",
   "TED Talk Curator",

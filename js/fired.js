@@ -6,9 +6,10 @@
 //@prepros-prepend companies.js
 //@prepros-prepend job-titles.js
 
+var maxTime = 120;
 
 
-function newFire() {
+function newFire(ago) {
   var firstName = firstNames[Math.floor(Math.random()*firstNames.length)];
   var lastName = lastNames[Math.floor(Math.random()*lastNames.length)];
   var fullName = firstName+' '+lastName;
@@ -20,6 +21,12 @@ function newFire() {
   var job = '<span class="job">'+jobTitle+'</span>';
   var company = '<span class="company">'+comp+'</span>';
   var salary = '<span class="salary">$'+thousands+',000</span>';
+  var tstamp;
+  if (ago) {
+    tstamp = '<time>'+moment().subtract(ago, 'seconds').format('MMMM Do YYYY, h:mm:ss a')+'</time>';
+  } else {
+    tstamp = '<time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time>';
+  }
   var msg;
   var r = Math.floor(Math.random()*5)+1;
   if (r == 1) {
@@ -34,10 +41,45 @@ function newFire() {
     msg = company+' is in need of a new '+job+'. Posting says "Must crush it, every day." Pay starts at '+salary;
   }
   
-  var article = '<article class="fired"><p>'+msg+'</p><time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time></article">';
-  $('main').prepend(article);
+  var article = '<article class="fired"><p>'+msg+'</p>'+tstamp+'</article">';
+  if (ago) {
+    $('main').append(article);
+    $('main article').show();
+  } else {
+    $('main').prepend(article);
+    $('main article:first-child').slideDown(350);
+  }
+  
+}
+
+function recentFirings() {
+  var secondCount = 0;
+  for (i = 0; i < 8; i++) {
+    var a = Math.floor(Math.random()*maxTime)+1;
+    secondCount = secondCount + a;
+    newFire(secondCount);
+  }
 }
 
 $('#FireSomeone').click(function() {
   newFire();
+});
+
+var odds = 1;
+
+setInterval(function(){ 
+  var match = Math.floor(Math.random()*maxTime);
+  if (odds >= match) {
+    newFire();
+    odds = 1;
+    console.log('hit!');
+  } else {
+    odds++;
+    //console.log(odds +'>='+match+': ELSE');
+    console.log('tick');
+  }
+}, 850);
+
+$(document).ready(function() {
+  recentFirings();
 });

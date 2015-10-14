@@ -1,4 +1,6 @@
-footer { max-width: $max-width; margin-left: auto; margin-right: auto; text-align: center;
-  
+footer { background-color:$dark; color:$white; font-size:0.7em; margin-top: 1em; padding:1em;
+  .inner { max-width: $max-width; margin-left: auto; margin-right: auto; }
+  a { color:$yellow; }
+  //position: fixed; left:0; right:0; bottom:0;
   button { font-size:2em; font-family: $font; cursor: pointer; }
 }
