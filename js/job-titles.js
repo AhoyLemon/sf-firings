@@ -70,5 +70,9 @@ var jobTitles = [
   "L2 Support Super Saiyan",
   "Culture Lead",
   "Futurist-In-Residence",
-  "Chief Product Hunt Officer"
+  "Chief Product Hunt Officer",
+  "Synergist",
+  "Leverage Balancer",
+  "Code Priest",
+  "Salesforce Rocketeer"
 ];
