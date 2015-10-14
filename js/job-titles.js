@@ -51,7 +51,7 @@ var jobTitles = [
   "Burning Man Coordinator",
   "Family Evictor",
   "Displacement Bus Driver",
-  "Eggo Cryogenicist",
+  "Egg Cryogenicist",
   "Metatag Resource Manager",
   "[NO JOB TITLE ON FILE]",
   "Periscope Street Team Captain",

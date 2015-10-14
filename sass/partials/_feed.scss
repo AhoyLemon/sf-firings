@@ -1,5 +1,7 @@
 main { max-width:$max-width; margin-left: auto; margin-right: auto; padding-top: 1em;
   article { background:$yellow; padding: 1em; margin-bottom: 0.25em; border:1px solid darken($yellow,20%);
     time { display: block; text-align: right; font-size:0.7em; }
+    .job { font-weight: $bold; }
+    .company { font-style: italic; padding-right: 0.2em; }
   }
 }
