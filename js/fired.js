@@ -1,3 +1,5 @@
+//@prepros-prepend vendor/moment.js
+
 //@prepros-prepend names.js
 //@prepros-prepend companies.js
 //@prepros-prepend job-titles.js
@@ -12,7 +14,7 @@ function newFire() {
   
   var msg = firstName+' '+lastName+' ('+jobTitle+' at '+company+') was just fired. Salary: '+salary;
   
-  var article = '<article class="fired">'+msg+'</article">';
+  var article = '<article class="fired"><p>'+msg+'</p><time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time></article">';
   $('main').append(article);
 }
 

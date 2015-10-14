@@ -227,6 +227,12 @@ main article {
   border: 1px solid #d7d486;
 }
 
+main article time {
+  display: block;
+  text-align: right;
+  font-size: 0.7em;
+}
+
 footer {
   max-width: 600px;
   margin-left: auto;
