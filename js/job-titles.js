@@ -59,5 +59,10 @@ var jobTitles = [
   "Hype Man",
   "Giants Tickets Procurement Officer",
   "Consulting Consultant",
-  "Ruby Wrangler On Rails"
+  "Ruby Wrangler On Rails",
+  "Positivity Manager",
+  "Nostalgist",
+  "Thought Librarian",
+  "Culture Fitologist",
+  "Sonos DJ"
 ];

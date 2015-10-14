@@ -29,6 +29,7 @@ var companies = [
   "Scribd",
   "Square",
   "Skout",
+  "Sonos",
   "Stripe",
   "Thumbtack",
   "Twitter",
