@@ -1,4 +1,6 @@
-body { font-family:$font; font-size:$font-size; background-color:$light; color:$dark; }
+body { font-family:$font; font-size:$font-size; background-color:$light; color:$dark;
+  min-height:105vh;
+}
 
 h1, h2, h3 { font-weight: $light; }
 h1 { font-size:3.4rem; }

@@ -1,6 +1,9 @@
-footer { background-color:$dark; color:$white; font-size:0.7em; margin-top: 1em; padding:1em;
+footer { background-color:$dark; color:$white; font-size:0.75em; line-height:135%; margin-top: 1em; padding:1em;
   .inner { max-width: $max-width; margin-left: auto; margin-right: auto; }
+  p { padding-bottom: 0.5em; }
   a { color:$yellow; }
   //position: fixed; left:0; right:0; bottom:0;
   button { font-size:2em; font-family: $font; cursor: pointer; }
+  position: fixed; right:0; bottom:0; left:0; transform: translateY(105%); transition:all 0.3s ease;
+  &.fixed { transform: translateY(0); }
 }

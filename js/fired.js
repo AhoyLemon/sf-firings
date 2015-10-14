@@ -83,3 +83,12 @@ setInterval(function(){
 $(document).ready(function() {
   recentFirings();
 });
+
+$(window).scroll(function() {
+  console.log($(window).scrollTop());
+   if($(window).scrollTop()  > 40) {
+     $('footer').addClass('fixed');
+   } else {
+     $('footer').removeClass('fixed');
+   }
+});

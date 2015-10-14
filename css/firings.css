@@ -192,6 +192,7 @@ body {
   font-size: 16px;
   background-color: 300;
   color: #131313;
+  min-height: 105vh;
 }
 
 h1, h2, h3 {
@@ -283,15 +284,26 @@ button:active {
 footer {
   background-color: #131313;
   color: #f5f5f5;
-  font-size: 0.7em;
+  font-size: 0.75em;
+  line-height: 135%;
   margin-top: 1em;
   padding: 1em;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateY(105%);
+  transition: all 0.3s ease;
 }
 
 footer .inner {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer p {
+  padding-bottom: 0.5em;
 }
 
 footer a {
@@ -302,4 +314,8 @@ footer button {
   font-size: 2em;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
+}
+
+footer.fixed {
+  transform: translateY(0);
 }
