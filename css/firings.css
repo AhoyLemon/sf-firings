@@ -218,6 +218,7 @@ main {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1em;
 }
 
 main article {
@@ -231,6 +232,19 @@ main article time {
   display: block;
   text-align: right;
   font-size: 0.7em;
+}
+
+header {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+header button {
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
 }
 
 footer {

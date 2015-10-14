@@ -15,7 +15,7 @@ function newFire() {
   var msg = firstName+' '+lastName+' ('+jobTitle+' at '+company+') was just fired. Salary: '+salary;
   
   var article = '<article class="fired"><p>'+msg+'</p><time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time></article">';
-  $('main').append(article);
+  $('main').prepend(article);
 }
 
 $('#FireSomeone').click(function() {

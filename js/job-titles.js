@@ -55,5 +55,7 @@ var jobTitles = [
   "Metatag Resource Manager",
   "[NO JOB TITLE ON FILE]",
   "Periscope Street Team Captain",
-  "Guru"
+  "Guru",
+  "TED Talk Curator",
+  "Hype Man"
 ];
