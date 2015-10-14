@@ -56,5 +56,8 @@ var jobTitles = [
   "Periscope Street Team Captain",
   "Guru",
   "TED Talk Curator",
-  "Hype Man"
+  "Hype Man",
+  "Giants Tickets Procurement Officer",
+  "Consulting Consultant",
+  "Ruby Wrangler On Rails"
 ];

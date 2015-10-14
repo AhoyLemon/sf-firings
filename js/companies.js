@@ -1,4 +1,5 @@
 var companies = [
+  "42floors",
   "Aha!",
   "Airbnb",
   "Box",
@@ -14,6 +15,7 @@ var companies = [
   "GoFundMe",
   "GoFundMe",
   "Gumroad",
+  "The Honest Company",
   "Kickstarter",
   "Kickstarter",
   "Klout",
@@ -28,6 +30,7 @@ var companies = [
   "Square",
   "Skout",
   "Stripe",
+  "Thumbtack",
   "Twitter",
   "Twitter",
   "Twitch",

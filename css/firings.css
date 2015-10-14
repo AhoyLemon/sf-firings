@@ -216,13 +216,14 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
+  margin-bottom: 7em;
 }
 
 main article {
-  background: #f2efe4;
+  background: #f4f3ed;
   padding: 1em;
   margin-bottom: 0.25em;
-  border: 1px solid #d1c69f;
+  border: 1px solid #cdc9ae;
   display: none;
 }
 
