@@ -6,7 +6,7 @@ I was on the bus texting [Boots](http://thefpl.us/meet/boots-raingear) about the
 
 It's pretty straightforward. The site's built in [Jade](https://github.com/jadejs/jade), uses [jQuery](https://jquery.org/) and [moment.js](http://momentjs.com/). First incarnation of this thing was built in about 2.5 hours.
 
-###People who helped.
+###People who helped. <a id="friends"></a>
 1. [Jack Chick](http://thefpl.us/meet/jack-chick)
 2. [Boots Raingear](http://thefpl.us/meet/boots-raingear)
 3. [J W Friedman](http://thefpl.us/meet/http://thefpl.us/meet/j-w-friedman)

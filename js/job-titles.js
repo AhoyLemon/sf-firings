@@ -74,5 +74,10 @@ var jobTitles = [
   "Synergist",
   "Leverage Balancer",
   "Code Priest",
-  "Salesforce Rocketeer"
+  "Salesforce Rocketeer",
+  "Hug Evangelist",
+  "Outreach Manager To Chick Developers",
+  "Code Crusher",
+  "PHP Brogrammer II",
+  "PHP Brogrammer III"
 ];
