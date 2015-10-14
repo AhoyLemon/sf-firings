@@ -1,9 +1,10 @@
+-var siteTitle = "Who just got fired in San Francisco?"
+-var siteURL = "http://firings.xyz"
+-var lastUpdated = "10.14.2015"
 doctype html
 html(lang="en")
   head
-    title SF Firings
-    link(href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet")
-    link(href="css/firings.css" rel="stylesheet")
+    include ./jade/head.jade
   body
     header
       h1 Who just got fired in San Francisco?
@@ -18,4 +19,4 @@ html(lang="en")
           a(href="https://github.com/AhoyLemon/sf-firings") GitHub
           | . Forks and pull requests welcome.
   script(src="https://code.jquery.com/jquery-2.1.4.min.js")
-  script(src="js/min/firings.min.js")
+  script(src="js/min/firings.min.js?updated=#{lastUpdated}")

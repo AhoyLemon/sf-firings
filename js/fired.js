@@ -36,7 +36,7 @@ function newFire(ago) {
   } else if (r == 3) {
     msg = 'Another round of layoffs at '+company+'! '+job+' '+name+' was first to go.';
   } else if (r == 4) {
-    msg = 'Insiders recognized '+name+'&apos;s voice shouting &quot;Fuck your code of conduct!&quot; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
+    msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;Fuck your code of conduct!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
   } else if (r == 5) {
     msg = company+' is in need of a new '+job+'. Posting says "Must crush it, every day." Pay starts at '+salary;
   }

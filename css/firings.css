@@ -219,10 +219,10 @@ main {
 }
 
 main article {
-  background: #f0efd2;
+  background: #f2efe4;
   padding: 1em;
   margin-bottom: 0.25em;
-  border: 1px solid #d7d486;
+  border: 1px solid #d1c69f;
   display: none;
 }
 
@@ -307,7 +307,7 @@ footer p {
 }
 
 footer a {
-  color: #f0efd2;
+  color: #f2efe4;
 }
 
 footer button {
