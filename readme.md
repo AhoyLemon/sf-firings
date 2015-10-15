@@ -9,7 +9,7 @@ It's pretty straightforward. The site's built in [Jade](https://github.com/jadej
 ###People who helped. <a id="friends"></a>
 1. [Jack Chick](http://thefpl.us/meet/jack-chick)
 2. [Boots Raingear](http://thefpl.us/meet/boots-raingear)
-3. [J W Friedman](http://thefpl.us/meet/http://thefpl.us/meet/j-w-friedman)
+3. [J W Friedman](http://thefpl.us/meet/j-w-friedman)
 4. [Josiah Gulden](https://twitter.com/jgulden)
 
 ###Is this real?
