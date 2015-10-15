@@ -79,5 +79,6 @@ var jobTitles = [
   "Outreach Manager To Chick Developers",
   "Code Crusher",
   "PHP Brogrammer II",
-  "PHP Brogrammer III"
+  "PHP Brogrammer III",
+  "Manager: Lifehacking"
 ];
