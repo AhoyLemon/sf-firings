@@ -1,4 +1,4 @@
-footer { background-color:$dark; color:$white; font-size:0.75em; line-height:135%; margin-top: 1em; padding:1em;
+footer { background-color:rgba($dark,0.85); color:$white; font-size:0.75em; line-height:135%; margin-top: 1em; padding:1em;
   .inner { max-width: $max-width; margin-left: auto; margin-right: auto; }
   p { padding-bottom: 0.5em; }
   a { color:$yellow; }

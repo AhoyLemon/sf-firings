@@ -5,6 +5,7 @@
 //@prepros-prepend names.js
 //@prepros-prepend companies.js
 //@prepros-prepend job-titles.js
+//@prepros-prepend job-postings.js
 
 var maxTime = 120;
 
@@ -15,7 +16,7 @@ function newFire(ago) {
   var fullName = firstName+' '+lastName;
   var jobTitle = jobTitles[Math.floor(Math.random()*jobTitles.length)];
   var comp = companies[Math.floor(Math.random()*companies.length)];
-  var thousands = Math.floor(Math.random()*360)+100;
+  var thousands = Math.floor(Math.random()*330)+89;
   
   var name = '<span class="name">'+fullName+'</span>';
   var job = '<span class="job">'+jobTitle+'</span>';
@@ -28,7 +29,7 @@ function newFire(ago) {
     tstamp = '<time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time>';
   }
   var msg;
-  var r = Math.floor(Math.random()*5)+1;
+  var r = Math.floor(Math.random()*10)+1;
   if (r == 1) {
     msg = name+' ('+job+' at '+company+') was just fired. Salary: '+salary;
   } else if (r == 2) {
@@ -38,7 +39,21 @@ function newFire(ago) {
   } else if (r == 4) {
     msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;Fuck your code of conduct!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
   } else if (r == 5) {
-    msg = company+' is in need of a new '+job+'. Posting says "Must crush it, every day." Pay starts at '+salary;
+    var posting = jobPostings[Math.floor(Math.random()*jobPostings.length)];
+    msg = company+' is in need of a new '+job+'. Posting says &ldquo;'+posting+'&rdquo; Pay starts at '+salary;
+  } else if (r == 6) {
+    var day = moment().format('dddd');
+    var pct = Math.floor(Math.random()*18)+5;
+    msg = company+' celebrates &ldquo;Unemployment '+day+'&rdquo; by elminating '+pct+'% of their workforce.';
+  } else if (r == 7) {
+    msg = 'VCs advise a market correction necessary at '+company+'. '+name+' released.';
+  } else if (r == 8) {
+    msg = company+' secures new round of funding; fires '+job+' for having options vested. Additional '+salary+' available';
+  } else if (r == 9) {
+    var investor = firstNames[Math.floor(Math.random()*firstNames.length)]+' '+lastName;
+    msg = investor+' pulls out of '+company+' investment portfolio. '+name+' released.';
+  } else if (r == 10) {
+    msg = company+'&apos;s open office plan gets more open as '+name+' is released from position as '+job;
   }
   
   var article = '<article class="fired"><p>'+msg+'</p>'+tstamp+'</article">';
