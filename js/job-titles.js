@@ -80,5 +80,6 @@ var jobTitles = [
   "Code Crusher",
   "PHP Brogrammer II",
   "PHP Brogrammer III",
-  "Manager: Lifehacking"
+  "Manager: Lifehacking",
+  "TechCrunch Disruptor"
 ];
