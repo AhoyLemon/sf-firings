@@ -37,6 +37,16 @@ function newFire(ago) {
   } else if (r == 3) {
     msg = 'Another round of layoffs at '+company+'! '+job+' '+name+' was first to go.';
   } else if (r == 4) {
+    var shouts = [
+      "Fuck your code of conduct!",
+      "Disrupt my ass!",
+      "Who stole my fucking Soylent!?",
+      "Jony Ive is overrated!",
+      "Let's charge customers for our service!",
+      "I don't even tweet!",
+      "You can't lint my fucking code!"
+    ];
+    var shout = shouts[Math.floor(Math.random()*shouts.length)];
     msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;Fuck your code of conduct!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
   } else if (r == 5) {
     var posting = jobPostings[Math.floor(Math.random()*jobPostings.length)];
