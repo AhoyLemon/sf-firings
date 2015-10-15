@@ -26,8 +26,8 @@ meta(name="msapplication-TileImage", content="/mstile-144x144.png")
 meta(name="theme-color", content="#1d93e8")
 
 // Twitter
-each val, index in {'card':'summary', 'creator':'@AhoyLemon', 'title':siteTitle, 'description':description, 'image':'/img/twitter-card.png', 'url':siteURL}
+each val, index in {'card':'summary', 'creator':'@AhoyLemon', 'title':siteTitle, 'description':description, 'image':siteURL+'/img/twitter-card.png', 'url':siteURL}
   meta(name="twitter:#{index}" content="#{val}")
 // Open Graph
-each val, index in {'title':siteTitle, 'type':'website', 'url':siteURL, 'image':'/img/og-image.png', 'description':description, 'email':'lemon@hirelemon.com'}
+each val, index in {'title':siteTitle, 'type':'website', 'url':siteURL, 'image':siteURL+'/img/og-image.png', 'description':description, 'email':'lemon@hirelemon.com'}
   meta(property="og:#{index}" content="#{val}")
