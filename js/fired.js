@@ -47,7 +47,7 @@ function newFire(ago) {
       "You can't lint my fucking code!"
     ];
     var shout = shouts[Math.floor(Math.random()*shouts.length)];
-    msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;Fuck your code of conduct!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
+    msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;'+shout+'!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
   } else if (r == 5) {
     var posting = jobPostings[Math.floor(Math.random()*jobPostings.length)];
     msg = company+' is in need of a new '+job+'. Posting says &ldquo;'+posting+'&rdquo; Pay starts at '+salary;
