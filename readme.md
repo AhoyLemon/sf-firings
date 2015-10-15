@@ -1,4 +1,4 @@
-#Who just got fired in San Francisco?
+#Recent Firings in San Francisco
 
 I was on the bus texting [Boots](http://thefpl.us/meet/boots-raingear) about the recent [Twitter layoffs](http://www.nytimes.com/2015/10/14/technology/twitter-to-cut-more-than-300-jobs.html?_r=0) and the two of us went back and forth coming up with job titles for the people who had been let go. When he came up with "Social Meteorologist", something had to be done with this idea.
 
