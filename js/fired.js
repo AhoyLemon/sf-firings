@@ -44,7 +44,8 @@ function newFire(ago) {
       "Jony Ive is overrated!",
       "Let's charge customers for our service!",
       "I don't even tweet!",
-      "You can't lint my fucking code!"
+      "Nobody lints MY code!",
+      "But it's my daughter's birthday!"
     ];
     var shout = shouts[Math.floor(Math.random()*shouts.length)];
     msg = 'Insiders recognized '+name+'&apos;s voice shouting &ldquo;'+shout+'!&rdquo; '+company+' cannot speak to the matter directly, but they are looking for a new '+job+'.';
