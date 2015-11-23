@@ -22,6 +22,7 @@ var companies = [
   "GoFundMe",
   "Gumroad",
   "Instacart",
+  "Jawbone",
   "Kickstarter",
   "Kickstarter",
   "Klout",

@@ -29,7 +29,7 @@ function newFire(ago) {
     tstamp = '<time>'+moment().format('MMMM Do YYYY, h:mm:ss a')+'</time>';
   }
   var msg;
-  var r = Math.floor(Math.random()*10)+1;
+  var r = Math.floor(Math.random()*11)+1;
   if (r == 1) {
     msg = name+' ('+job+' at '+company+') was just fired. Salary: '+salary;
   } else if (r == 2) {
@@ -65,6 +65,15 @@ function newFire(ago) {
     msg = investor+' pulls out of '+company+' investment portfolio. '+name+' released.';
   } else if (r == 10) {
     msg = company+'&apos;s open office plan gets more open as '+name+' is released from position as '+job;
+  } else if (r == 11) {
+    var pct = Math.floor(Math.random()*18)+3;
+    var emails = [
+      'has enjoyed incredible success over the years',
+      'is the company it is today because of employees like you',
+      'has an indespensible workforce'
+    ];
+    var email = emails[Math.floor(Math.random()*emails.length)];
+    msg = company+' fires '+pct+'% of its employees in an email that starts &ldquo;'+company+' '+email+'...&rdquo;';
   }
   
   var article = '<article class="fired"><p>'+msg+'</p>'+tstamp+'</article">';
