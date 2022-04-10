@@ -1,5 +1,3 @@
-/* jshint -W117 */
-
 //@prepros-prepend vendor/moment.js
 
 //@prepros-prepend names.js
@@ -8,7 +6,6 @@
 //@prepros-prepend job-postings.js
 
 var maxTime = 120;
-
 
 function newFire(ago) {
   var firstName = firstNames[Math.floor(Math.random()*firstNames.length)];
